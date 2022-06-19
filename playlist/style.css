@@ -1,0 +1,145 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    border: 10px solid #05c7ae;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+}
+
+body>* {
+    margin-bottom: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.title__cancel {
+    position: relative;
+    left: -90px;
+}
+
+.title__playlist {
+    position: relative;
+    left: -5px
+}
+
+.header__music-playing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.header__music-playing-info {
+    position: relative;
+    top: -10px;
+}
+
+.header__music-playing-title {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.header__music-playing-singer {
+    font-weight: 600;
+}
+
+.image {
+    margin-right: 20px;
+    position: relative;
+    left: -8px;
+}
+
+.nav__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 280px;
+}
+
+.nav__button>button {
+    background-color: white;
+    border-width: thick;
+    height: 50px;
+}
+
+.nav__button-play {
+    width: 130px;
+    border-radius: 10px;
+
+}
+
+.nav__button-round {
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.list__playlist {
+    height: 400px;
+    width: 250px;
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.list__music {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.list__music>* {
+    margin-right: 10px;
+}
+
+.list__albumcover {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: solid black;
+}
+
+
+#first_cover {
+    background-color: #f85a2a;
+}
+
+#second_cover {
+    background-color: #ff89bb;
+}
+
+#third_cover {
+    background-color: #1947e5;
+}
+
+#forth_cover {
+    background-color: #00c6ad;
+}
+
+
+.list__title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.list__singer {
+    font-size: 5px;
+    font-weight: 150;
+}

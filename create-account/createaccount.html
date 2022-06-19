@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create An Account</title>
+</head>
+
+<body>
+    <header>
+        <h1>Create An Account</h1>
+    </header>
+    <main>
+        <form>
+            <label for="First name">First name</label>
+            <input required placeholder="First name" type="text" id="First name"><br>
+            <label for="Last name">Last name</label>
+            <input required placeholder="Last name" type="text" id="Last name"><br>
+            <label for="Email">Email</label>
+            <input required placeholder="Email" type="email" id="Email" pattern=".+@+.+\.com"><br>
+            <label for="Username">User name</label>
+            <input required placeholder="Username" type="text" id="User name"><br>
+            <label for="Password">Password</label>
+            <input required minlength="10" placeholder="Password" type="password" id="Password"><br>
+            <label for="Birth date">Birth date</label>
+            <input required placeholder="yyyy / mm / dd" type="date" id="Birth date"><br>
+            <label for="How happy">How happy are you</label>
+            <input required type="range" list="tickmarks" id="How happy"><br>
+            <datalist id="tickmarks">
+                <option value="0"></option>>
+                <option value="10"></option>>
+                <option value="20"></option>>
+                <option value="30"></option>>
+                <option value="40"></option>>
+                <option value="50"></option>>
+                <option value="60"></option>>
+                <option value="70"></option>>
+                <option value="80"></option>>
+                <option value="90"></option>>
+                <option value="100"></option>>
+            </datalist>
+            <label for="fav color">What is your fav. color?</label>
+            <input required type="color" name="body" id="fav color"><br>
+            <input type="submit" value="Create Account">
+        </form>
+
+    </main>
+
+
+
+</body>
+
+</html>
